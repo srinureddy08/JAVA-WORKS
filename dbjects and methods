@@ -1,1 +1,20 @@
+public class Main{
+    public static void main (String [] args){
+        shape s = new shape(5,4);
+        s.area();
+    }
+}
+
+class shape{
+    int length;
+    int breadth;
+    shape (int length , int breadth){
+        this.length =length;
+        this.breadth = breadth;
+    }
+    void area (){
+    int area = length*breadth;
+    System.out.println("area:"+area);
+    }
+}
 
